@@ -1,0 +1,23 @@
+.hypotext-content {
+  position: relative;
+  padding: 10px;
+  margin: 10px 0;
+  border-right: 10px dotted #eee;
+}
+a.hypotext {
+  border-bottom: 2px dotted;
+}
+.hypotext-content .close:before {
+  content: "close";
+  font-size: 0.7em;
+  margin-right: 5px;
+  border-bottom: 1px dotted;
+}
+a.hypotext.close {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  line-height: 1em;
+  border: none;
+}
