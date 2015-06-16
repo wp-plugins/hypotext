@@ -8,7 +8,7 @@ Stable tag: 4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Use the Hypotext shortcodes to format your articles into a reader friendly format.
+Hypotext is a way of revealing content on-demand. It acts like a traditional link, but it doesn’t interrupt user experience by sending readers to another page. Once clicked, the extra information is injected into a desired spot in the page. Another click hides it away.
 
 == Description ==
 
@@ -18,6 +18,8 @@ Traditional article formats present the reader with all of the article content i
 This often results in the reader not reading the article, or not being able to find the information
 they were looking for. Hypotext allows a skeleton article to be created with the supporting content
 being available inline, when the user clicks the "hypotext" link in the article.
+
+Here is an example of [hypotext implementation](http://dejanseo.com.au/web-content/?utm_source=wordpress&utm_medium=plugin&utm_term=hypotext&utm_content=plugin-description&utm_campaign=hypotext).
 
 == Installation ==
 
