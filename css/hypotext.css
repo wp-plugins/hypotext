@@ -2,10 +2,10 @@
   position: relative;
   padding: 10px;
   margin: 10px 0;
-  border-right: 10px dotted #eee;
+  border-right: 20px dotted;
 }
 a.hypotext {
-  border-bottom: 2px dotted;
+  border-bottom: 1px solid;
 }
 .hypotext-content .close:before {
   content: "close";

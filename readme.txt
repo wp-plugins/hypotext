@@ -1,5 +1,5 @@
 === Plugin Name ===
-Contributors: Dejan SEO
+Contributors: DEJAN
 Donate link: http://dejanseo.com.au/
 Tags: content, editing, article, hypotext, hidden, reveal
 Requires at least: 3.0.1

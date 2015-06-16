@@ -2,8 +2,8 @@
 /*
 * Plugin Name: Hypotext
 * Description: Hypotext integration.
-* Version: 1.0
-* Author: DEJAN
+* Version: 1.0.1
+* Author: Dejan SEO
 * Author URI: http://dejanseo.com.au
 */
 
@@ -25,11 +25,11 @@ function hypotext_shortcode($atts, $content = NULL) {
 
   // If we have target set, this is a link referencing the content.
   if (!empty($atts['target'])) {
-    return '<a href="#" class="hypotext closed" rel="hypotext-content-' . $atts['target'] . '">' . do_shortcode($content) . '</a>';
+    return '<a href="#" id="hypotext-anchor-' . $atts['target'] . '" class="hypotext closed" rel="hypotext-content-' . $atts['target'] . '">' . do_shortcode($content) . '</a>';
   }
   // If id is set, this is the content.
   elseif (!empty($atts['id'])) {
-    return '<div class="hypotext-content hypotext-content-' . $atts['id'] . '">' .
+    return '<div class="hypotext-content hypotext-content-' . $atts['id'] . '" rel="hypotext-anchor-' . $atts['id'] . '">' .
            '<a href="#" class="hypotext closed close" rel="hypotext-content-' . $atts['id'] . '"></a>' .
            do_shortcode($content) . '</div>';
   }
