@@ -8,7 +8,7 @@ Stable tag: 4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Hypotext is a way of revealing content on-demand. It acts like a traditional link, but it doesn’t interrupt user experience by sending readers to another page. Once clicked, the extra information is injected into a desired spot in the page. Another click hides it away.
+Click to expand hidden content within your article.
 
 == Description ==
 
